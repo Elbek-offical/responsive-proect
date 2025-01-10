@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive HR Website</title>
+    <link rel="stylesheet" href="main.css">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        img {
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        header {
+            background-color: #163A24;
+            padding: 25px 0;
+        }
+
+        .header_list_link {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .header_logo {
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+       .header_list {
+            display: inline-block;
+            vertical-align: middle;
+            margin-left: auto;
+            float: right;
+        }
+
+        .header_list_item {
+            display: inline-block;
+            margin-left: 24px;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1240px;
+            margin: 0 auto;
+        }
+
+        .header_list_link-active {
+            padding: 15px 25px;
+            background-color: #198C36;
+            border-radius: 160px;
+        }
+
+        .hero {
+            background-color: #163A24;
+            margin-bottom: 120px;
+            text-align: center;
+        }
+
+        .hero_content {
+            display: inline-block;
+            width: 100%;
+            max-width: 475px;
+            vertical-align: middle;
+            color: #fff;
+        }
+
+        .hero_img {
+            display: inline-block;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .hero_title {
+            font-size: 48px;
+            line-height: 65px;
+            margin-bottom: 18px;
+        }
+
+        .hero_text {
+            font-size: 18px;
+            line-height: 27px;
+        }
+
+        .about {
+            text-align: center;
+        }
+
+        .about_info {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 50px;
+        }
+
+        .about_info_text {
+            display: inline-block;
+            width: 100%;
+            max-width: 393px;
+            vertical-align: middle;
+        }
+
+        .about_img {
+            display: inline-block;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .about_info_hr_title {
+            font-size: 48px;
+            line-height: 54px;
+        }
+
+        .about_info_hr_text {
+            font-size: 18px;
+            line-height: 27px;
+        }
+
+        .about_partner_text {
+            font-size: 48px;
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 66px;
+        }
+
+        .partners_logo {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+        .partners_logo-list{
+            display: flex;
+            list-style: none;
+        }
+        .about_logo_sp {
+            width: 110px;
+            height: 45px;
+        }
+
+        @media (max-width: 1024px) {
+            .header_list {
+                margin-left: 20px;
+                float: none;
+            }
+
+            .hero_title {
+                font-size: 36px;
+                line-height: 50px;
+            }
+
+            .hero_text {
+                font-size: 16px;
+            }
+
+            .about_info {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .about_info_text {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .hero_title {
+                font-size: 28px;
+                line-height: 40px;
+                
+            }
+
+            .hero_text {
+                font-size: 14px;
+
+                
+            }
+        }
+
+        @media (max-width: 480px) {
+            .header {
+                text-align: center;
+            }
+
+            .header_list {
+                display: block;
+                margin-left: 10px;
+            
+            }
+            
+            .header_list_item {
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <a class="header_logo" href="#">
+                <img src="Logo.svg" alt="Logo">
+            </a>
+            <ol class="header_list">
+                <li class="header_list_item">
+                    <a class="header_list_link" href="#">Log In</a>
+                </li>
+                <li class="header_list_item">
+                    <a class="header_list_link" href="tel:8443326440">844-332-6440</a>
+                </li>
+                <li class="header_list_item">
+                    <a class="header_list_link header_list_link-active" href="#">Get Started</a>
+                </li>
+            </ol>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero_content">
+                    <h1 class="hero_title">Running the show has never been so easy.</h1>
+                    <p class="hero_text">Ready to put the human back in HR? Clerksy helps you set the stage with an inclusive and compliant workplace.</p>
+                </div>
+                <img class="hero_img" src="hero-logo.png" alt="Hero Image">
+            </div>
+        </section>
+        <section class="about">
+            <div class="container">
+                <div class="about_info">
+                    <img class="about_img" src="about-1-img.png" alt="About Image 1">
+                    <div class="about_info_text">
+                        <h3 class="about_info_hr_title">Put the human back in HR.</h3>
+                        <p class="about_info_hr_text">Your employees are the real stars. Show the love and help them perform!</p>
+                    </div>
+                </div>
+                <div class="about_info">
+                    <div class="about_info_text">
+                        <h3 class="about_info_hr_title">You don’t have to play all the parts.</h3>
+                        <p class="about_info_hr_text">Sales, accounting, HR— Oh My! You can’t do it all - let Clerksy help.</p>
+                    </div>
+                    <img class="about_img" src="about-2-img.png" alt="About Image 2">
+                </div>
+                <div class="about_info">
+                    <img class="about_img" src="about-3-img.png" alt="About Image 3">
+                    <div class="about_info_text">
+                        <h3 class="about_info_hr_title">Streamline your processes.</h3>
+                        <p class="about_info_hr_text">Simplify your workflows and focus on what truly matters - your team.</p>
+                    </div>
+                </div>
+                <div class="about_info">
+                    <div class="about_info_text">
+                        <h3 class="about_info_hr_title">Empower your business.</h3>
+                        <p class="about_info_hr_text">Achieve more with tools designed to help your business thrive.</p>
+                    </div>
+                    <img class="about_img" src="about-4-img.png" alt="About Image 4">
+                </div>
+                <div class="partners_logo">
+                    <p class="about_partner_text">We partner with the best</p>
+                    <ol class="about_logos">
+                        <li class="partners_logo-list"><a href="https://stripe.com/"><img src="stripe.png" alt="Stripe"></a></li>
+                        <li class="partners_logo-list"><a href="https://www.google.com/"><img src="gogle.png" alt="Google"></a></li>
+                        <li class="partners_logo-list"><a href="https://www.notion.so/"><img class="about_logo_sp" src="notion.png" alt="Notion"></a></li>
+                        <li class="partners_logo-list"><a href="https://gusto.com/"><img src="gusto.png" alt="Gusto"></a></li>
+                        <li class="partners_logo-list"><a href="https://aircall.io/"><img src="airsss.png" alt="Aircall"></a></li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

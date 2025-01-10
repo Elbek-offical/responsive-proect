@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header {
+    background-color: #163A24;
+    padding: 25px 0px;
+
+}
+
+.header_list_link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header_logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header_list {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 676px;
+}
+
+.header_list_item {
+    display: inline-block;
+    margin-left: 24px;
+}
+
+.container {
+    width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header_list_link-active {
+    padding: 15px 25px;
+    background-color: #198C36;
+    border-radius: 160px;
+}
+
+/*
+main*/
+.hero_content {
+    display: inline-block;
+    width: 475px;
+    vertical-align: middle;
+    color: #fff;
+}
+
+.hero_img {
+    display: inline-block;
+}
+
+.hero {
+    background-color: #163A24;
+    margin-bottom: 120px;
+}
+
+.hero_title {
+    font-size: 48px;
+    line-height: 65px;
+    margin-bottom: 18px;
+}
+
+.hero_text {
+    font-size: 18px;
+    line-height: 27px;
+}
+.about_info_text{
+    display: inline-block;
+    width: 393px;
+    vertical-align: middle;
+}
+.about_img_1{
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 98px;
+}
+.about_info_hr_title{
+    font-size: 48px;
+    line-height: 54px;
+}
+.about_info_hr_text{
+    font-size: 18px;
+    line-height: 27px;
+}
+.about_img_1_active{
+    margin-left: 98px;
+    margin-right: 0px;
+}
+.about_info_text_active{
+    margin-bottom: ;
+}
+.about_info{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.about_partner_tex{
+    font-size: 48px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 66px;
+}
+.about{
+    text-align: center;
+}
+.about_info_active{
+    margin-bottom: 113px;
+}
+.about_logo_partners{
+    display: inline-block;
+    margin-right: 87px;
+}
+.about_logo_partners_active{
+    margin-right: 0px;
+}
+.about_logo_sp{
+    width: 110px;
+    height: 45px;
+}
